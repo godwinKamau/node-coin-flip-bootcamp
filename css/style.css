@@ -1,0 +1,56 @@
+/* Got this coin flip animation from Mary Selig: https://codepen.io/seligmar/pen/RwPNQOd */
+
+#coin {
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition:transform 1s ease-in;
+  transform-style:preserve-3d;
+}
+
+#coin div {
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 45px rgba(255,255,255,.3), 0 12px 20px -10px rgba(0,0,0,.4);
+  border-radius: 50%;
+  position:absolute;
+  backface-visibility: hidden;
+}
+
+.side-a {
+  background-color: #bb0000;
+  z-index: 100;
+}
+
+.side-b {
+  background-color: #3e3e3e;
+  transform: rotateY(-180deg);
+}
+
+#coin.once {
+    animation: flipOnce 3s ease-out forwards;
+}
+
+#coin.twice {
+    animation: flipTwice 3s ease-out forwards;
+}
+
+@keyframes flipOnce {
+    from {
+        transform:rotateY(0);
+    }
+    to {
+        transform:rotateY(1800deg);
+    }
+}
+
+@keyframes flipTwice {
+    from {
+        transform:rotateY(0);
+    }
+    to {
+        transform:rotateY(1980deg);
+    }
+}
