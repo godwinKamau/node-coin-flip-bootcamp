@@ -5,8 +5,10 @@ _This is an app made with Node that sends a request to a server to flip a coin._
 
 <hr>
 
-<center><a href="https://node-coin-flip-bootcamp-oyim.onrender.com/">Here is the rendered project</a></center>
+<a style="text-align:center" href="https://node-coin-flip-bootcamp-oyim.onrender.com/">Here is the rendered project</a>
+
 <br>
+
 <img src="coin-preview.png" alt="preview of the app">
 
 
@@ -25,5 +27,6 @@ This was my first stint into Node, so there was a lot to gain and learn from thi
 </ul>
 
 ### More Projects:
-<a href="https://github.com/godwinKamau/wu-tang-generator-bootcamp">Wu-Tang Name Generator</a>
+<a href="https://github.com/godwinKamau/wu-tang-generator-bootcamp">Wu-Tang Name Generator</a>\
+
 <a href="https://github.com/godwinKamau/complex-api">Using APIs to expand my music tastes</a>
