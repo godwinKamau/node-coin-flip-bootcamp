@@ -27,6 +27,6 @@ This was my first stint into Node, so there was a lot to gain and learn from thi
 </ul>
 
 ### More Projects:
-<a href="https://github.com/godwinKamau/wu-tang-generator-bootcamp">Wu-Tang Name Generator</a>\
+<a href="https://github.com/godwinKamau/wu-tang-generator-bootcamp">Wu-Tang Name Generator</a>
 
 <a href="https://github.com/godwinKamau/complex-api">Using APIs to expand my music tastes</a>
